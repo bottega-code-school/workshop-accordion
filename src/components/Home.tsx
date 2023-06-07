@@ -1,6 +1,5 @@
 import * as React from "react";
 import Layout from "./Layout";
-import Accordion from "./Accordion";
 
 const azCities: { id: string; name: string; description: string }[] = [
   {
@@ -45,12 +44,5 @@ const utahCities: { id: string; name: string; description: string }[] = [
 ];
 
 export default function Home() {
-  return (
-    <Layout>
-      <h2>Arizona</h2>
-      <Accordion data={azCities} variant="multiple" />
-      <h2>Utah</h2>
-      <Accordion data={utahCities} variant="multiple" />
-    </Layout>
-  );
+  return <Layout>TODO</Layout>;
 }
